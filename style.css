@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: azure;
+}
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+.b1{
+    background-image: conic-gradient(red,yellow,green);
+
+}
+.b2{
+    background-image: conic-gradient(from 45deg, red,yellow,green);
+
+}
+.b3{
+    background-image: conic-gradient(red,yellow,green,red);
+
+}
+.b4{
+    background-image: conic-gradient(red 270deg,yellow,green);
+
+}
+.b5{
+    background-image: repeating-conic-gradient(red 0deg 30deg,yellow 30deg 40deg);
+
+}
+.b6{
+    background-image: repeating-conic-gradient(red 0deg 30deg,yellow 30deg 40deg);
+
+}
